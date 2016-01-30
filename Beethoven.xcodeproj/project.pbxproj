@@ -47,6 +47,7 @@
 		88E956361C5D71AF007D0296 /* LocationEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13F1C345E0A00290B63 /* LocationEstimator.swift */; };
 		88E956371C5D71AF007D0296 /* PitchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB14A1C345E0A00290B63 /* PitchEngine.swift */; };
 		88E956381C5D71AF007D0296 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1371C345E0A00290B63 /* Config.swift */; };
+		88E9563B1C5D72E9007D0296 /* AVAudioSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E9563A1C5D72E9007D0296 /* AVAudioSession.swift */; };
 		8F0F3CEE1C5D5A2600747FE4 /* Beethoven-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0F3CF51C5D5A2600747FE4 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */; };
 		8F0F3CFA1C5D5A2600747FE4 /* Beethoven_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */; };
@@ -110,6 +111,7 @@
 		88E956061C5D70F5007D0296 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		88E956071C5D70F5007D0296 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
 		88E956081C5D70F5007D0296 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		88E9563A1C5D72E9007D0296 /* AVAudioSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVAudioSession.swift; sourceTree = "<group>"; };
 		8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beethoven-OSX.h"; sourceTree = "<group>"; };
 		8F0F3CEF1C5D5A2600747FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +222,14 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		88E956391C5D72D7007D0296 /* OSXCompat */ = {
+			isa = PBXGroup;
+			children = (
+				88E9563A1C5D72E9007D0296 /* AVAudioSession.swift */,
+			);
+			name = OSXCompat;
+			sourceTree = "<group>";
+		};
 		8F0F3CEC1C5D5A2600747FE4 /* Beethoven-OSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +251,7 @@
 		D51575A11C343B77006F8E75 = {
 			isa = PBXGroup;
 			children = (
+				88E956391C5D72D7007D0296 /* OSXCompat */,
 				88E955FE1C5D70F5007D0296 /* Pitchy */,
 				D59CB1361C345E0A00290B63 /* Source */,
 				D5A49CD41C343FD700427BF8 /* Beethoven */,
@@ -675,6 +686,7 @@
 				88E9562A1C5D71AF007D0296 /* TransformStrategy.swift in Sources */,
 				88E9562B1C5D71AF007D0296 /* BarycentricEstimator.swift in Sources */,
 				88E9562C1C5D71AF007D0296 /* HPSEstimator.swift in Sources */,
+				88E9563B1C5D72E9007D0296 /* AVAudioSession.swift in Sources */,
 				88E9562D1C5D71AF007D0296 /* JainsEstimator.swift in Sources */,
 				88E9562E1C5D71AF007D0296 /* MaxValueEstimator.swift in Sources */,
 				88E9562F1C5D71AF007D0296 /* QuadradicEstimator.swift in Sources */,

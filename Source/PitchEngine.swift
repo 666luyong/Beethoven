@@ -1,5 +1,5 @@
-import UIKit
 import AVFoundation
+import Foundation
 
 public protocol PitchEngineDelegate: class {
   func pitchEngineDidRecievePitch(pitchEngine: PitchEngine, pitch: Pitch)
@@ -63,11 +63,15 @@ public class PitchEngine {
     case AVAudioSessionRecordPermission.Granted:
       activate()
     case AVAudioSessionRecordPermission.Denied:
+      #if os(OSX)
+        // Great balls of fire
+      #elseif os(iOS)
       dispatch_async(dispatch_get_main_queue()) {
         if let settingsURL = NSURL(string: UIApplicationOpenSettingsURLString) {
           UIApplication.sharedApplication().openURL(settingsURL)
         }
       }
+      #endif
     case AVAudioSessionRecordPermission.Undetermined:
       AVAudioSession.sharedInstance().requestRecordPermission { [weak self] granted  in
         guard let weakSelf = self else { return }
