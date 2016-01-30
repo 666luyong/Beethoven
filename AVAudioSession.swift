@@ -15,6 +15,14 @@ enum AVAudioSessionRecordPermission {
     case Bla
 }
 
+let AVAudioSessionCategoryPlayAndRecord = "LOL Playback and Record"
+let AVAudioSessionCategoryPlayback = "LOL Playback"
+
+enum AVAudioSessionPortOverride : UInt {
+    case None
+    case Speaker
+}
+
 class AVAudioSession {
     
     private init() {
@@ -30,6 +38,15 @@ class AVAudioSession {
     }
     
     func requestRecordPermission(x: (Bool) -> Void) {
+        
+    }
+    
+    /// Sets the current audio session category.
+    func setCategory(category: String) throws {
+        
+    }
+    
+    func overrideOutputAudioPort(portOverride: AVAudioSessionPortOverride) throws {
         
     }
 }
