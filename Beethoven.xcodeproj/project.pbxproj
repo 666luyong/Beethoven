@@ -7,11 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88E956091C5D70F5007D0296 /* NoteCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956001C5D70F5007D0296 /* NoteCalculator.swift */; };
+		88E9560B1C5D70F5007D0296 /* PitchCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956011C5D70F5007D0296 /* PitchCalculator.swift */; };
+		88E9560D1C5D70F5007D0296 /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956021C5D70F5007D0296 /* WaveCalculator.swift */; };
+		88E9560F1C5D70F5007D0296 /* PitchyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956031C5D70F5007D0296 /* PitchyConfig.swift */; };
+		88E956111C5D70F5007D0296 /* AcousticWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956051C5D70F5007D0296 /* AcousticWave.swift */; };
+		88E956131C5D70F5007D0296 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956061C5D70F5007D0296 /* Note.swift */; };
+		88E956151C5D70F5007D0296 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956071C5D70F5007D0296 /* Pitch.swift */; };
+		88E956171C5D70F5007D0296 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956081C5D70F5007D0296 /* Error.swift */; };
+		88E956191C5D71AF007D0296 /* NoteCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956001C5D70F5007D0296 /* NoteCalculator.swift */; };
+		88E9561A1C5D71AF007D0296 /* PitchCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956011C5D70F5007D0296 /* PitchCalculator.swift */; };
+		88E9561B1C5D71AF007D0296 /* WaveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956021C5D70F5007D0296 /* WaveCalculator.swift */; };
+		88E9561C1C5D71AF007D0296 /* PitchyConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956031C5D70F5007D0296 /* PitchyConfig.swift */; };
+		88E9561D1C5D71AF007D0296 /* AcousticWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956051C5D70F5007D0296 /* AcousticWave.swift */; };
+		88E9561E1C5D71AF007D0296 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956061C5D70F5007D0296 /* Note.swift */; };
+		88E9561F1C5D71AF007D0296 /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956071C5D70F5007D0296 /* Pitch.swift */; };
+		88E956201C5D71AF007D0296 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E956081C5D70F5007D0296 /* Error.swift */; };
+		88E956211C5D71AF007D0296 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1391C345E0A00290B63 /* Buffer.swift */; };
+		88E956221C5D71AF007D0296 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1491C345E0A00290B63 /* Array+Extensions.swift */; };
+		88E956231C5D71AF007D0296 /* InputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB14E1C345E0A00290B63 /* InputSignalTracker.swift */; };
+		88E956241C5D71AF007D0296 /* OutputSignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB14F1C345E0A00290B63 /* OutputSignalTracker.swift */; };
+		88E956251C5D71AF007D0296 /* SignalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB14C1C345E0A00290B63 /* SignalTracker.swift */; };
+		88E956261C5D71AF007D0296 /* FFTTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1521C345E0A00290B63 /* FFTTransformer.swift */; };
+		88E956271C5D71AF007D0296 /* SimpleTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1531C345E0A00290B63 /* SimpleTransformer.swift */; };
+		88E956281C5D71AF007D0296 /* Transformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1541C345E0A00290B63 /* Transformer.swift */; };
+		88E956291C5D71AF007D0296 /* TransformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1551C345E0A00290B63 /* TransformFactory.swift */; };
+		88E9562A1C5D71AF007D0296 /* TransformStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1561C345E0A00290B63 /* TransformStrategy.swift */; };
+		88E9562B1C5D71AF007D0296 /* BarycentricEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1411C345E0A00290B63 /* BarycentricEstimator.swift */; };
+		88E9562C1C5D71AF007D0296 /* HPSEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1421C345E0A00290B63 /* HPSEstimator.swift */; };
+		88E9562D1C5D71AF007D0296 /* JainsEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1431C345E0A00290B63 /* JainsEstimator.swift */; };
+		88E9562E1C5D71AF007D0296 /* MaxValueEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1441C345E0A00290B63 /* MaxValueEstimator.swift */; };
+		88E9562F1C5D71AF007D0296 /* QuadradicEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1451C345E0A00290B63 /* QuadradicEstimator.swift */; };
+		88E956301C5D71AF007D0296 /* QuinnsFirstEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1461C345E0A00290B63 /* QuinnsFirstEstimator.swift */; };
+		88E956311C5D71AF007D0296 /* QuinnsSecondEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1471C345E0A00290B63 /* QuinnsSecondEstimator.swift */; };
+		88E956321C5D71AF007D0296 /* EstimationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13B1C345E0A00290B63 /* EstimationError.swift */; };
+		88E956331C5D71AF007D0296 /* EstimationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13C1C345E0A00290B63 /* EstimationFactory.swift */; };
+		88E956341C5D71AF007D0296 /* EstimationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13D1C345E0A00290B63 /* EstimationStrategy.swift */; };
+		88E956351C5D71AF007D0296 /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13E1C345E0A00290B63 /* Estimator.swift */; };
+		88E956361C5D71AF007D0296 /* LocationEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB13F1C345E0A00290B63 /* LocationEstimator.swift */; };
+		88E956371C5D71AF007D0296 /* PitchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB14A1C345E0A00290B63 /* PitchEngine.swift */; };
+		88E956381C5D71AF007D0296 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1371C345E0A00290B63 /* Config.swift */; };
 		8F0F3CEE1C5D5A2600747FE4 /* Beethoven-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F0F3CF51C5D5A2600747FE4 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */; };
 		8F0F3CFA1C5D5A2600747FE4 /* Beethoven_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */; };
-		8F0F3D071C5D61CA00747FE4 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */; };
-		8F0F3D091C5D61D000747FE4 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3D081C5D61D000747FE4 /* Pitchy.framework */; };
 		D51575B61C343B77006F8E75 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51575AB1C343B77006F8E75 /* Beethoven.framework */; };
 		D59CB1571C345E0A00290B63 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1371C345E0A00290B63 /* Config.swift */; };
 		D59CB1581C345E0A00290B63 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1391C345E0A00290B63 /* Buffer.swift */; };
@@ -44,8 +82,6 @@
 		D59CB17D1C34665800290B63 /* EstimatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB17C1C34665800290B63 /* EstimatorSpec.swift */; };
 		D59CB17F1C34666900290B63 /* EstimationFactorySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB17E1C34666900290B63 /* EstimationFactorySpec.swift */; };
 		D59CB1811C34692E00290B63 /* ConfigSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1801C34692E00290B63 /* ConfigSpec.swift */; };
-		D5A49C751C343EC300427BF8 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A49C731C343EC300427BF8 /* Quick.framework */; };
-		D5A49C761C343EC300427BF8 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A49C741C343EC300427BF8 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,14 +102,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88E956001C5D70F5007D0296 /* NoteCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCalculator.swift; sourceTree = "<group>"; };
+		88E956011C5D70F5007D0296 /* PitchCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchCalculator.swift; sourceTree = "<group>"; };
+		88E956021C5D70F5007D0296 /* WaveCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveCalculator.swift; sourceTree = "<group>"; };
+		88E956031C5D70F5007D0296 /* PitchyConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PitchyConfig.swift; sourceTree = "<group>"; };
+		88E956051C5D70F5007D0296 /* AcousticWave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcousticWave.swift; sourceTree = "<group>"; };
+		88E956061C5D70F5007D0296 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		88E956071C5D70F5007D0296 /* Pitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pitch.swift; sourceTree = "<group>"; };
+		88E956081C5D70F5007D0296 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beethoven-OSX.h"; sourceTree = "<group>"; };
 		8F0F3CEF1C5D5A2600747FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F0F3CF41C5D5A2600747FE4 /* Beethoven-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_OSXTests.swift; sourceTree = "<group>"; };
 		8F0F3CFB1C5D5A2600747FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pitchy.framework; path = "../Pitchy/build/Debug-iphoneos/Pitchy.framework"; sourceTree = "<group>"; };
-		8F0F3D081C5D61D000747FE4 /* Pitchy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pitchy.framework; path = ../Pitchy/build/Debug/Pitchy.framework; sourceTree = "<group>"; };
 		D51575AB1C343B77006F8E75 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51575B51C343B77006F8E75 /* Beethoven-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59CB1371C345E0A00290B63 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -107,13 +149,10 @@
 		D59CB17C1C34665800290B63 /* EstimatorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatorSpec.swift; sourceTree = "<group>"; };
 		D59CB17E1C34666900290B63 /* EstimationFactorySpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimationFactorySpec.swift; sourceTree = "<group>"; };
 		D59CB1801C34692E00290B63 /* ConfigSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigSpec.swift; sourceTree = "<group>"; };
-		D5A49C731C343EC300427BF8 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
-		D5A49C741C343EC300427BF8 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		D5A49CD01C343FD700427BF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A49CD21C343FD700427BF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A49CD61C343FD700427BF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5A49CD81C343FD700427BF8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5A49CDD1C3458EA00427BF8 /* Pitchy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pitchy.framework; path = Carthage/Build/iOS/Pitchy.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +160,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0F3D091C5D61D000747FE4 /* Pitchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +175,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F0F3D071C5D61CA00747FE4 /* Pitchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A49C751C343EC300427BF8 /* Quick.framework in Frameworks */,
-				D5A49C761C343EC300427BF8 /* Nimble.framework in Frameworks */,
 				D51575B61C343B77006F8E75 /* Beethoven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +189,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		88E955FE1C5D70F5007D0296 /* Pitchy */ = {
+			isa = PBXGroup;
+			children = (
+				88E955FF1C5D70F5007D0296 /* Calculators */,
+				88E956031C5D70F5007D0296 /* PitchyConfig.swift */,
+				88E956041C5D70F5007D0296 /* Data */,
+				88E956081C5D70F5007D0296 /* Error.swift */,
+			);
+			path = Pitchy;
+			sourceTree = "<group>";
+		};
+		88E955FF1C5D70F5007D0296 /* Calculators */ = {
+			isa = PBXGroup;
+			children = (
+				88E956001C5D70F5007D0296 /* NoteCalculator.swift */,
+				88E956011C5D70F5007D0296 /* PitchCalculator.swift */,
+				88E956021C5D70F5007D0296 /* WaveCalculator.swift */,
+			);
+			path = Calculators;
+			sourceTree = "<group>";
+		};
+		88E956041C5D70F5007D0296 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				88E956051C5D70F5007D0296 /* AcousticWave.swift */,
+				88E956061C5D70F5007D0296 /* Note.swift */,
+				88E956071C5D70F5007D0296 /* Pitch.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8F0F3CEC1C5D5A2600747FE4 /* Beethoven-OSX */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,11 +241,7 @@
 		D51575A11C343B77006F8E75 = {
 			isa = PBXGroup;
 			children = (
-				8F0F3D081C5D61D000747FE4 /* Pitchy.framework */,
-				8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */,
-				D5A49C731C343EC300427BF8 /* Quick.framework */,
-				D5A49C741C343EC300427BF8 /* Nimble.framework */,
-				D5A49CDD1C3458EA00427BF8 /* Pitchy.framework */,
+				88E955FE1C5D70F5007D0296 /* Pitchy */,
 				D59CB1361C345E0A00290B63 /* Source */,
 				D5A49CD41C343FD700427BF8 /* Beethoven */,
 				D5A49CCE1C343FD700427BF8 /* BeethovenTests */,
@@ -465,7 +527,6 @@
 				D51575A71C343B77006F8E75 /* Frameworks */,
 				D51575A81C343B77006F8E75 /* Headers */,
 				D51575A91C343B77006F8E75 /* Resources */,
-				D5A49CE11C34591300427BF8 /* Copy frameworks with Carthage */,
 			);
 			buildRules = (
 			);
@@ -587,21 +648,6 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
-		D5A49CE11C34591300427BF8 /* Copy frameworks with Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Pitchy.framework",
-			);
-			name = "Copy frameworks with Carthage";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -609,6 +655,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E956191C5D71AF007D0296 /* NoteCalculator.swift in Sources */,
+				88E9561A1C5D71AF007D0296 /* PitchCalculator.swift in Sources */,
+				88E9561B1C5D71AF007D0296 /* WaveCalculator.swift in Sources */,
+				88E9561C1C5D71AF007D0296 /* PitchyConfig.swift in Sources */,
+				88E9561D1C5D71AF007D0296 /* AcousticWave.swift in Sources */,
+				88E9561E1C5D71AF007D0296 /* Note.swift in Sources */,
+				88E9561F1C5D71AF007D0296 /* Pitch.swift in Sources */,
+				88E956201C5D71AF007D0296 /* Error.swift in Sources */,
+				88E956211C5D71AF007D0296 /* Buffer.swift in Sources */,
+				88E956221C5D71AF007D0296 /* Array+Extensions.swift in Sources */,
+				88E956231C5D71AF007D0296 /* InputSignalTracker.swift in Sources */,
+				88E956241C5D71AF007D0296 /* OutputSignalTracker.swift in Sources */,
+				88E956251C5D71AF007D0296 /* SignalTracker.swift in Sources */,
+				88E956261C5D71AF007D0296 /* FFTTransformer.swift in Sources */,
+				88E956271C5D71AF007D0296 /* SimpleTransformer.swift in Sources */,
+				88E956281C5D71AF007D0296 /* Transformer.swift in Sources */,
+				88E956291C5D71AF007D0296 /* TransformFactory.swift in Sources */,
+				88E9562A1C5D71AF007D0296 /* TransformStrategy.swift in Sources */,
+				88E9562B1C5D71AF007D0296 /* BarycentricEstimator.swift in Sources */,
+				88E9562C1C5D71AF007D0296 /* HPSEstimator.swift in Sources */,
+				88E9562D1C5D71AF007D0296 /* JainsEstimator.swift in Sources */,
+				88E9562E1C5D71AF007D0296 /* MaxValueEstimator.swift in Sources */,
+				88E9562F1C5D71AF007D0296 /* QuadradicEstimator.swift in Sources */,
+				88E956301C5D71AF007D0296 /* QuinnsFirstEstimator.swift in Sources */,
+				88E956311C5D71AF007D0296 /* QuinnsSecondEstimator.swift in Sources */,
+				88E956321C5D71AF007D0296 /* EstimationError.swift in Sources */,
+				88E956331C5D71AF007D0296 /* EstimationFactory.swift in Sources */,
+				88E956341C5D71AF007D0296 /* EstimationStrategy.swift in Sources */,
+				88E956351C5D71AF007D0296 /* Estimator.swift in Sources */,
+				88E956361C5D71AF007D0296 /* LocationEstimator.swift in Sources */,
+				88E956371C5D71AF007D0296 /* PitchEngine.swift in Sources */,
+				88E956381C5D71AF007D0296 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,17 +705,25 @@
 				D59CB1641C345E0A00290B63 /* QuinnsSecondEstimator.swift in Sources */,
 				D59CB16E1C345E0A00290B63 /* TransformStrategy.swift in Sources */,
 				D59CB1651C345E0A00290B63 /* Array+Extensions.swift in Sources */,
+				88E956091C5D70F5007D0296 /* NoteCalculator.swift in Sources */,
 				D59CB1601C345E0A00290B63 /* JainsEstimator.swift in Sources */,
+				88E956131C5D70F5007D0296 /* Note.swift in Sources */,
 				D59CB15C1C345E0A00290B63 /* Estimator.swift in Sources */,
+				88E9560B1C5D70F5007D0296 /* PitchCalculator.swift in Sources */,
 				D59CB15D1C345E0A00290B63 /* LocationEstimator.swift in Sources */,
+				88E9560D1C5D70F5007D0296 /* WaveCalculator.swift in Sources */,
+				88E956151C5D70F5007D0296 /* Pitch.swift in Sources */,
 				D59CB16D1C345E0A00290B63 /* TransformFactory.swift in Sources */,
 				D59CB1631C345E0A00290B63 /* QuinnsFirstEstimator.swift in Sources */,
 				D59CB15B1C345E0A00290B63 /* EstimationStrategy.swift in Sources */,
 				D59CB15E1C345E0A00290B63 /* BarycentricEstimator.swift in Sources */,
 				D59CB1621C345E0A00290B63 /* QuadradicEstimator.swift in Sources */,
+				88E956171C5D70F5007D0296 /* Error.swift in Sources */,
 				D59CB1591C345E0A00290B63 /* EstimationError.swift in Sources */,
 				D59CB1671C345E0A00290B63 /* SignalTracker.swift in Sources */,
+				88E956111C5D70F5007D0296 /* AcousticWave.swift in Sources */,
 				D59CB16C1C345E0A00290B63 /* Transformer.swift in Sources */,
+				88E9560F1C5D70F5007D0296 /* PitchyConfig.swift in Sources */,
 				D59CB1661C345E0A00290B63 /* PitchEngine.swift in Sources */,
 				D59CB1691C345E0A00290B63 /* OutputSignalTracker.swift in Sources */,
 				D59CB1611C345E0A00290B63 /* MaxValueEstimator.swift in Sources */,
@@ -847,10 +933,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Beethoven/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -869,10 +952,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "$(SRCROOT)/Beethoven/iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -925,6 +1005,7 @@
 				8F0F3CFD1C5D5A2600747FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F0F3D011C5D5A2600747FE4 /* Build configuration list for PBXNativeTarget "Beethoven-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -933,6 +1014,7 @@
 				8F0F3CFF1C5D5A2600747FE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D51575A51C343B77006F8E75 /* Build configuration list for PBXProject "Beethoven" */ = {
 			isa = XCConfigurationList;
