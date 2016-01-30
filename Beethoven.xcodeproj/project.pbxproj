@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F0F3CEE1C5D5A2600747FE4 /* Beethoven-OSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F0F3CF51C5D5A2600747FE4 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */; };
+		8F0F3CFA1C5D5A2600747FE4 /* Beethoven_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */; };
+		8F0F3D071C5D61CA00747FE4 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */; };
+		8F0F3D091C5D61D000747FE4 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0F3D081C5D61D000747FE4 /* Pitchy.framework */; };
 		D51575B61C343B77006F8E75 /* Beethoven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51575AB1C343B77006F8E75 /* Beethoven.framework */; };
 		D59CB1571C345E0A00290B63 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1371C345E0A00290B63 /* Config.swift */; };
 		D59CB1581C345E0A00290B63 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1391C345E0A00290B63 /* Buffer.swift */; };
@@ -41,10 +46,16 @@
 		D59CB1811C34692E00290B63 /* ConfigSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CB1801C34692E00290B63 /* ConfigSpec.swift */; };
 		D5A49C751C343EC300427BF8 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A49C731C343EC300427BF8 /* Quick.framework */; };
 		D5A49C761C343EC300427BF8 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A49C741C343EC300427BF8 /* Nimble.framework */; };
-		D5A49CDE1C3458EA00427BF8 /* Pitchy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A49CDD1C3458EA00427BF8 /* Pitchy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8F0F3CF61C5D5A2600747FE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D51575A21C343B77006F8E75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F0F3CEA1C5D5A2600747FE4;
+			remoteInfo = "Beethoven-OSX";
+		};
 		D51575B71C343B77006F8E75 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D51575A21C343B77006F8E75 /* Project object */;
@@ -55,6 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beethoven-OSX.h"; sourceTree = "<group>"; };
+		8F0F3CEF1C5D5A2600747FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F3CF41C5D5A2600747FE4 /* Beethoven-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beethoven_OSXTests.swift; sourceTree = "<group>"; };
+		8F0F3CFB1C5D5A2600747FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pitchy.framework; path = "../Pitchy/build/Debug-iphoneos/Pitchy.framework"; sourceTree = "<group>"; };
+		8F0F3D081C5D61D000747FE4 /* Pitchy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pitchy.framework; path = ../Pitchy/build/Debug/Pitchy.framework; sourceTree = "<group>"; };
 		D51575AB1C343B77006F8E75 /* Beethoven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Beethoven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51575B51C343B77006F8E75 /* Beethoven-iOS-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Beethoven-iOS-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59CB1371C345E0A00290B63 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
@@ -98,11 +117,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8F0F3CE71C5D5A2600747FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F3D091C5D61D000747FE4 /* Pitchy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F3CF11C5D5A2600747FE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F3CF51C5D5A2600747FE4 /* Beethoven.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D51575A71C343B77006F8E75 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5A49CDE1C3458EA00427BF8 /* Pitchy.framework in Frameworks */,
+				8F0F3D071C5D61CA00747FE4 /* Pitchy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,15 +154,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F0F3CEC1C5D5A2600747FE4 /* Beethoven-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F3CED1C5D5A2600747FE4 /* Beethoven-OSX.h */,
+				8F0F3CEF1C5D5A2600747FE4 /* Info.plist */,
+			);
+			path = "Beethoven-OSX";
+			sourceTree = "<group>";
+		};
+		8F0F3CF81C5D5A2600747FE4 /* Beethoven-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F0F3CF91C5D5A2600747FE4 /* Beethoven_OSXTests.swift */,
+				8F0F3CFB1C5D5A2600747FE4 /* Info.plist */,
+			);
+			path = "Beethoven-OSXTests";
+			sourceTree = "<group>";
+		};
 		D51575A11C343B77006F8E75 = {
 			isa = PBXGroup;
 			children = (
+				8F0F3D081C5D61D000747FE4 /* Pitchy.framework */,
+				8F0F3D061C5D61CA00747FE4 /* Pitchy.framework */,
 				D5A49C731C343EC300427BF8 /* Quick.framework */,
 				D5A49C741C343EC300427BF8 /* Nimble.framework */,
 				D5A49CDD1C3458EA00427BF8 /* Pitchy.framework */,
 				D59CB1361C345E0A00290B63 /* Source */,
 				D5A49CD41C343FD700427BF8 /* Beethoven */,
 				D5A49CCE1C343FD700427BF8 /* BeethovenTests */,
+				8F0F3CEC1C5D5A2600747FE4 /* Beethoven-OSX */,
+				8F0F3CF81C5D5A2600747FE4 /* Beethoven-OSXTests */,
 				D51575AC1C343B77006F8E75 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -137,6 +194,8 @@
 			children = (
 				D51575AB1C343B77006F8E75 /* Beethoven.framework */,
 				D51575B51C343B77006F8E75 /* Beethoven-iOS-Tests.xctest */,
+				8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */,
+				8F0F3CF41C5D5A2600747FE4 /* Beethoven-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -344,6 +403,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8F0F3CE81C5D5A2600747FE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F3CEE1C5D5A2600747FE4 /* Beethoven-OSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D51575A81C343B77006F8E75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +421,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8F0F3CEA1C5D5A2600747FE4 /* Beethoven-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0F3D001C5D5A2600747FE4 /* Build configuration list for PBXNativeTarget "Beethoven-OSX" */;
+			buildPhases = (
+				8F0F3CE61C5D5A2600747FE4 /* Sources */,
+				8F0F3CE71C5D5A2600747FE4 /* Frameworks */,
+				8F0F3CE81C5D5A2600747FE4 /* Headers */,
+				8F0F3CE91C5D5A2600747FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Beethoven-OSX";
+			productName = "Beethoven-OSX";
+			productReference = 8F0F3CEB1C5D5A2600747FE4 /* Beethoven.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8F0F3CF31C5D5A2600747FE4 /* Beethoven-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0F3D011C5D5A2600747FE4 /* Build configuration list for PBXNativeTarget "Beethoven-OSXTests" */;
+			buildPhases = (
+				8F0F3CF01C5D5A2600747FE4 /* Sources */,
+				8F0F3CF11C5D5A2600747FE4 /* Frameworks */,
+				8F0F3CF21C5D5A2600747FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F0F3CF71C5D5A2600747FE4 /* PBXTargetDependency */,
+			);
+			name = "Beethoven-OSXTests";
+			productName = "Beethoven-OSXTests";
+			productReference = 8F0F3CF41C5D5A2600747FE4 /* Beethoven-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D51575AA1C343B77006F8E75 /* Beethoven-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D51575BF1C343B77006F8E75 /* Build configuration list for PBXNativeTarget "Beethoven-iOS" */;
@@ -402,6 +505,12 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Vadym Markov";
 				TargetAttributes = {
+					8F0F3CEA1C5D5A2600747FE4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8F0F3CF31C5D5A2600747FE4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
 					D51575AA1C343B77006F8E75 = {
 						CreatedOnToolsVersion = 7.2;
 					};
@@ -424,11 +533,27 @@
 			targets = (
 				D51575AA1C343B77006F8E75 /* Beethoven-iOS */,
 				D51575B41C343B77006F8E75 /* Beethoven-iOS-Tests */,
+				8F0F3CEA1C5D5A2600747FE4 /* Beethoven-OSX */,
+				8F0F3CF31C5D5A2600747FE4 /* Beethoven-OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8F0F3CE91C5D5A2600747FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F3CF21C5D5A2600747FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D51575A91C343B77006F8E75 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,6 +605,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8F0F3CE61C5D5A2600747FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F3CF01C5D5A2600747FE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0F3CFA1C5D5A2600747FE4 /* Beethoven_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D51575A61C343B77006F8E75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -528,6 +668,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8F0F3CF71C5D5A2600747FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F0F3CEA1C5D5A2600747FE4 /* Beethoven-OSX */;
+			targetProxy = 8F0F3CF61C5D5A2600747FE4 /* PBXContainerItemProxy */;
+		};
 		D51575B81C343B77006F8E75 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D51575AA1C343B77006F8E75 /* Beethoven-iOS */;
@@ -536,6 +681,76 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8F0F3CFC1C5D5A2600747FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Beethoven-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadymmarkov.Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8F0F3CFD1C5D5A2600747FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Beethoven-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vadymmarkov.Beethoven;
+				PRODUCT_NAME = Beethoven;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8F0F3CFE1C5D5A2600747FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Beethoven-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "tk5.Beethoven-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8F0F3CFF1C5D5A2600747FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Beethoven-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "tk5.Beethoven-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		D51575BD1C343B77006F8E75 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -575,8 +790,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -617,7 +832,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -642,6 +857,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vadymmarkov.Beethoven;
 				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos9.2;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -663,6 +879,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vadymmarkov.Beethoven;
 				PRODUCT_NAME = Beethoven;
+				SDKROOT = iphoneos9.2;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -701,6 +918,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8F0F3D001C5D5A2600747FE4 /* Build configuration list for PBXNativeTarget "Beethoven-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F3CFC1C5D5A2600747FE4 /* Debug */,
+				8F0F3CFD1C5D5A2600747FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F0F3D011C5D5A2600747FE4 /* Build configuration list for PBXNativeTarget "Beethoven-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0F3CFE1C5D5A2600747FE4 /* Debug */,
+				8F0F3CFF1C5D5A2600747FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D51575A51C343B77006F8E75 /* Build configuration list for PBXProject "Beethoven" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
