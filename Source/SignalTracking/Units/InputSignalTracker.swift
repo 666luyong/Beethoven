@@ -35,6 +35,7 @@ public class InputSignalTracker: SignalTracker {
     let format = inputNode.inputFormatForBus(bus)
 
     inputNode.installTapOnBus(bus, bufferSize: bufferSize, format: format) { buffer, time in
+      buffer.frameLength = self.bufferSize
       dispatch_async(dispatch_get_main_queue()) {
         self.delegate?.signalTracker(self, didReceiveBuffer: buffer, atTime: time)
       }
